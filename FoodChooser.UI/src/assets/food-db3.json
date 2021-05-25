@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Zeama",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://media-cdn.tripadvisor.com/media/photo-s/0d/17/74/9a/zeama-chicken-soup.jpg",
+        "supply": "primary"
+
+    },
+    {
+        "name": "mamaliga",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "imgSrc": "https://www.totuldespremame.ro/wp-content/uploads/2015/07/m%C4%83m%C4%83liga-perfect%C4%83.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "pelimeni",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "nioki",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://images.media-allrecipes.com/userphotos/560x315/1070416.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "rice",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://images.ctfassets.net/3s5io6mnxfqz/4w2HQFnzRAsjqgWjNtuy1v/41becac8b5d850dd15302b785119435f/AdobeStock_268001268.jpeg?w=800&fm=jpg&fl=progressive",
+        "supply": "second"
+    },
+    {
+        "name": "plov",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20170418/b87bb973.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "sirniki",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20180223/b5793799.jpg",
+        "supply": "second"
+    }
+]

@@ -1,0 +1,187 @@
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11" style="margin-bottom: 20px; padding-right: unset;">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"><fa-icon [icon]="icons.search"></fa-icon></span>
+                    <input id="recipeSearchTxt" [(ngModel)]="searchBar" (keyup)="recipeSearchBarChanged()" placeholder="Search for a recipe name..." class="form-control" type="text">
+                    
+                </div>
+            </div>
+            <div class="col-md-1" style="padding-left: unset;">
+                <button style="width:100%" data-target="#addFoodModal" data-toggle="modal" class="btn btn-success"><fa-icon [icon]="icons.plus"></fa-icon></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-default" style="width: 100%; margin-bottom: 20px" (click)="chooseRandom()">Choose a random dish from the list below</button>
+            </div>
+        </div>
+        <div class="row" *ngIf="foodList">
+            <app-food-card class="col-md-4" *ngFor="let food of foodList" [food]="food" (viewFood)="modalInit($event)"></app-food-card>
+            <div class="col-md-12" style="text-align: center;" *ngIf="!foodList || foodList.length === 0">
+                <h4>Nothing found :(</h4>
+            </div>
+            <!-- <app-food-card class="col-md-4"></app-food-card>
+            <app-food-card class="col-md-4"></app-food-card>
+            <app-food-card class="col-md-4"></app-food-card>
+            <app-food-card class="col-md-4"></app-food-card>
+            <app-food-card class="col-md-4"></app-food-card>
+            <app-food-card class="col-md-4"></app-food-card> -->
+        </div>
+        
+    </div>
+</div>
+
+<div class="modal fade" id="foodModal" area-labelledby="foodModal" style="z-index: 1041;" tabindex="-1" role="dialog" *ngIf="modal">
+    <div class="modal-dialog  modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">{{modal.title}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding-top: 0">
+                <div class="row">
+                    <div class="col-md-12" style="background-color: #ccc;">
+                        <img [src]="modal.imgSrc" class="food-photo" width="400" height="200">
+                    
+                    </div>
+                </div>
+                
+                <div class="row" style="padding: 35px; text-align: center; color: #7c7d7c;">
+                    <img class="header-background" src="/assets/1959517.png">
+                    <!-- <div class="col-md-4">
+                        <h1>
+                            <fa-icon [icon]="icons.clock"></fa-icon> ~{{modal.time}} min
+                        </h1>
+                    </div> -->
+                    <div class="col-md-6">
+                        <h1>
+                            <fa-icon [icon]="modal.iconType"></fa-icon> {{modal.type}}
+                        </h1>
+                    </div>
+                    <div class="col-md-6">
+                        <h1>
+                            <fa-icon [ngStyle]="{'color': modal.temperature === 'hot' ? '#ffc107' : modal.temperature === 'medium' ?  '#28a745' : '#17a2b8' }" [icon]="modal.iconTemperature"></fa-icon> {{modal.temperature}}
+                        </h1>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-md-6">
+                        <p>Difficulty </p>
+                        <div class="progress">
+                            
+                            <div class="progress-bar bg-success" id="difficultyBar" role="progressbar" [ngStyle]="{'width': (modal.difficulty * 10) + '%'}" [attr.aria-valuenow]="modal.difficulty" [attr.aria-valuemin]="0" [attr.aria-valuemax]="10"></div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>{{modal.description}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#addFoodModal" (click)="editRecipe(modal)">Edit</button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#confirmRecipeDeleteModal" (click)="showDeleteConfirmation()">Delete</button>
+                <button type="button" class="btn btn-primary" (click)="searchForRecipe()">Search for recipe</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="addFoodModal" area-labelledby="addFoodModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" *ngIf="newRecipe.id == undefined">Add a new recipe</h5>
+                <h5 class="modal-title" *ngIf="newRecipe.id != undefined && newRecipe.id > 0">Edit recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body add-recipe-content">
+                <!-- <img class="header-background" src="/assets/1959517.png"> -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group">
+                            <span class="input-group-text form-span" id="basic-addon1">Recipe Name</span>
+                            <input id="newRecipeName" placeholder="Type in recipe name..." [(ngModel)]="newRecipe.name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row add-recipe-form-row">
+                    <div class="col-md-12">
+                        <div class="input-group">
+                            <span class="input-group-text form-span" id="basic-addon1">Dish Type</span>
+                            <select [(ngModel)]="newRecipe.type" id="newRecipeType" class="form-control">
+                                <option [value]="undefined">- Please select -</option>
+                                <option value="meat">Meat</option>
+                                <option value="vegetarian">Vegetarian</option>
+                                <option value="sea food">Sea Food</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row add-recipe-form-row">
+                    <div class="col-md-12">
+                        <div class="input-group">
+                            <span class="input-group-text form-span" id="basic-addon1">Temperature</span>
+                            <select [(ngModel)]="newRecipe.temperature" id="newRecipeTemperature" class="form-control">
+                                <option [value]="undefined">- Please select -</option>
+                                <option value="hot">Hot</option>
+                                <option value="medium">Medium</option>
+                                <option value="sea food">Cold</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row add-recipe-form-row">
+                    <div class="col-md-12">
+                        <div class="input-group">
+                            <span class="input-group-text form-span" id="basic-addon1">Type of serving</span>
+                            <select [(ngModel)]="newRecipe.supply" id="newRecipeSupply" class="form-control">
+                                <option [value]="undefined">- Please select -</option>
+                                <option value="primary">First Dish</option>
+                                <option value="second">Second Dish</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row add-recipe-form-row">
+                    <div class="col-md-12">
+                        <div class="input-group">
+                            <span class="input-group-text form-span" id="basic-addon1">Image URL</span>
+                            <input placeholder="Paste the image url..." [(ngModel)]="newRecipe.imgSrc" id="newRecipeImgSrc" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" (click)="saveRecipe()">Save</button>
+                <button type="button" class="btn btn-secondary" (click)="closeAddNewRecipeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="confirmRecipeDeleteModal" area-labelledby="confirmRecipeDeleteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirm action</h5>
+            </div>
+            <div class="modal-body">
+                <h5>Are you sure you want to delete this recipe?</h5>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="deleteRecipe()">Yes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="hideDeleteConfirmation()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

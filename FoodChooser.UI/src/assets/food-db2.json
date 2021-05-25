@@ -1,0 +1,52 @@
+[
+    {
+        "name": "shashlyk",
+        "type": "meat",
+        "temperature": "hot",
+        "energyValue": 100,
+        "imgSrc": "https://prostye-retsepty.com/wp-content/uploads/2017/02/marinad-dlya-shashlyka-iz-govyadiny.jpg",
+        "description": "Traditional caucasian dish, made from pork on charcoal. Tastes like a real russian picnic!",
+        "time": 40,
+        "difficulty": 5
+    },
+    {
+        "name": "shashlyk",
+        "type": "fish",
+        "temperature": "medium",
+        "energyValue": 100,
+        "imgSrc": "https://prostye-retsepty.com/wp-content/uploads/2017/02/marinad-dlya-shashlyka-iz-govyadiny.jpg",
+        "description": "Traditional caucasian dish, made from pork on charcoal. Tastes like a real russian picnic!",
+        "time": 50,
+        "difficulty": 5
+    },
+    {
+        "name": "shashlyk",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "energyValue": 100,
+        "imgSrc": "https://prostye-retsepty.com/wp-content/uploads/2017/02/marinad-dlya-shashlyka-iz-govyadiny.jpg",
+        "description": "Traditional caucasian dish, made from pork on charcoal. Tastes like a real russian picnic!",
+        "time": 60,
+        "difficulty": 5
+    },
+    {
+        "name": "shashlyk",
+        "type": "meat",
+        "temperature": "hot",
+        "energyValue": 100,
+        "imgSrc": "https://prostye-retsepty.com/wp-content/uploads/2017/02/marinad-dlya-shashlyka-iz-govyadiny.jpg",
+        "description": "Traditional caucasian dish, made from pork on charcoal. Tastes like a real russian picnic! asdklfjal;sdkjfa;lksdjf sdyerashkjldhf sdhlkfj hsd fksdjfhjdhs jfsdhfklsdjhf",
+        "time": 120,
+        "difficulty": 5
+    },
+    {
+        "name": "shashlyk",
+        "type": "meat",
+        "temperature": "hot",
+        "energyValue": 100,
+        "imgSrc": "https://prostye-retsepty.com/wp-content/uploads/2017/02/marinad-dlya-shashlyka-iz-govyadiny.jpg",
+        "description": "Traditional caucasian dish, made from pork on charcoal. Tastes like a real russian picnic!",
+        "time": 90,
+        "difficulty": 5
+    }
+]

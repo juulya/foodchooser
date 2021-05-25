@@ -1,0 +1,387 @@
+[
+    {
+        "name": "Зама",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://media-cdn.tripadvisor.com/media/photo-s/0d/17/74/9a/zeama-chicken-soup.jpg",
+        "supply": "primary"
+    },
+    {
+        "name": "Мамалыга",
+        "type": "vegetarian",
+        "temperature": "medium",
+        "imgSrc": "https://www.ciaoitaliarussia.it/wp-content/uploads/2018/03/Polenta-mais.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Ньоки",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://images.media-allrecipes.com/userphotos/560x315/1070416.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Рис",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://images.ctfassets.net/3s5io6mnxfqz/4w2HQFnzRAsjqgWjNtuy1v/41becac8b5d850dd15302b785119435f/AdobeStock_268001268.jpeg?w=800&fm=jpg&fl=progressive",
+        "supply": "second"
+    },
+    {
+        "name": "Плов",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20170418/b87bb973.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Сырники",
+        "type": "vegetarian",
+        "temperature": "medium",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20180223/b5793799.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста с тунцом",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "https://grandkulinar.ru/uploads/posts/2012-04/1335689192_spagetti-s-tuncom-i-sousom-marinara.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста Болоньезе",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://recipe-catalog.ru/wp-content/uploads/2018/01/spaghetti-bolognese.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста Карбонара",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://static.1000.menu/img/content/25198/pasta-karbonara_1517390804_9_max.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста с креветками",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "http://recepty-blud.com/wp-content/uploads/2012/03/spagetti-s-krevetkami-v-chesnohnom-souse.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с тунцом гриль",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "https://images.aif.ru/014/244/0a7d3829341cf93cbc8249a5ebab2a46.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с тунцом",
+        "type": "sea food",
+        "temperature": "cold",
+        "imgSrc": "https://www.maggi.ru/data/images/recept/img640x618/recept_10189_abck.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с морепродуктами",
+        "type": "sea food",
+        "temperature": "cold",
+        "imgSrc": "https://eda-land.ru/images/article/orig/2018/11/funchoza-s-moreproduktami-kalorijnost-i-sposoby-prigotovleniya-10.jpgg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат Цезарь",
+        "type": "meat",
+        "temperature": "medium",
+        "imgSrc": "http://receptastau.lt/wp-content/uploads/2015/01/Cezario-salotos-su-vi%C5%A1tiena-455x300.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с крабовыми палочками",
+        "type": "sea food",
+        "temperature": "cold",
+        "imgSrc": "https://i.pinimg.com/474x/e5/f5/ba/e5f5bae518b1f000fe9178e9531d788c--salad-recipe.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат Оливье",
+        "type": "meat",
+        "temperature": "cold",
+        "imgSrc": "https://e2.edimdoma.ru/data/recipes/0008/8940/88940-ed4_wide.jpg?1482918981",
+        "supply": "second"
+    },
+    {
+        "name": "Винегрет",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "imgSrc": "http://chudo-povar.com/images/vinegret-klassicheskij.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат Мимоза",
+        "type": "meat",
+        "temperature": "cold",
+        "imgSrc": "http://shostkasyr.com/images/receipts/IMG_8091.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат греческий",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://i.mycdn.me/image?id=878320882532&t=35&plc=WEB&tkn=*dZNAEZI-5rhqPlJf2QdsDstPBGA",
+        "supply": "second"
+    },
+    {
+        "name": "Блины",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "imgSrc": "https://www.maggi.ru/data/images/recept/img640x500/recept_5749_s86c.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Блины с творогом",
+        "type": "vegetarian",
+        "temperature": "medium",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20160222/bdf555bf.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Блины с курицей и грибами",
+        "type": "meat",
+        "temperature": "medium",
+        "imgSrc": "https://nakormi.com/wp-content/uploads/2018/02/bliny-s-kuricej-i-gribami-v-slivochnom-souse-600x400.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Блины с курицей",
+        "type": "meat",
+        "temperature": "medium",
+        "imgSrc": "https://www.divomix.com/uploads/1504441221.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Суши",
+        "type": "sea food",
+        "temperature": "cold",
+        "imgSrc": "http://img.vivigratis.com/deals/1325382/o.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Лазанья",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://static.cuisineaz.com/400x320/i37700-lasagne-sicilienne.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат греческий",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "imgSrc": "https://m.kedem.ru/photo/news/2015/07/big/nphoto1438019964.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Фунчоза с курицей и овощами",
+        "type": "meat",
+        "temperature": "cold",
+        "imgSrc": "http://www.rosmeat.com/upload/resize_cache/iblock/31b/563_718_1/31b095340bed72e3f0e76a77998a0a37.jpeg",
+        "supply": "second"
+    },
+    {
+        "name": "Вареники с творогом",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "http://v.img.com.ua/nxs105/b/600x500/4/1a/98c318e354fd446bf36379843bfce1a4.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Борщ мясной",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://smachno.ua/wp-content/uploads/2013/10/49db9bb75d7a47a005cf42b508ead867.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Борщ овощной",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "http://primebeef.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/3-501_500_306_5_100.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пшенная каша с тыквой",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://images.aif.ru/013/347/0158614fe183452116b6ad88f6b0e517.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Фриттата  с овощами",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://www.patee.ru/r/x6/13/07/ca/640m.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Удон с курицей",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://img11.postila.ru/resize?w=640&src=%2Fdata%2F03%2F4d%2F8f%2F6f%2F034d8f6f55618007f028848553e2718d8b18f2d8e289df9d73f17eb62e474521.png",
+        "supply": "second"
+    },
+    {
+        "name": "Голубцы",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://blog-recept.ru/wp-content/uploads/2019/05/10-6.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Тыквенный суп",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F39216880%2F68346176553%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C12%2C2048%2C1024&s=1fcd9fe742902e882d6442862e8f5aaa",
+        "supply": "second"
+    },
+    {
+        "name": "Драники",
+        "type": "vegetarian",
+        "temperature": "medium",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Грибной жюльен",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://assets.epicurious.com/photos/5bc4da29cf10732db9a8c441/2:1/w_400%2Ch_200/oven-polenta-with-roasted-mushrooms-and-thyme-recipe-BA-101518.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Жареный картофель",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://thecookbook.pk/wp-content/uploads/2017/11/momspotatoes.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Чили кон карне",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "http://enkokbok.se/bilder/chili-con-carne.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Кабачковые оладьи",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://www.bodystore.com/inspiration/media/prod-bsse/cache/full_column/recipes/59b12fee417b4_spenatpl%C3%A4ttar.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Фаршированные перцы",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://media.theeverygirl.com/wp-content/uploads/2018/10/delish-classic-stuffed-peppers-horizontal-1538065876-e1538585243897.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Окрошка вегетарианская",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "imgSrc": "http://kuxar.ru/wp-content/uploads/2017/05/okrosh_kuxar-600x300.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Окрошка классическая",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://rud.ua/uploads/useful_info/content/5cebf21995dff.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Капустняк",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://avatars.mds.yandex.net/get-pdb/1956063/86862952-5baa-4a57-a09f-36d92863c954/s1200?webp=false",
+        "supply": "second"
+    },
+    {
+        "name": "Оссобуко",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://i.pinimg.com/736x/8f/f7/f2/8ff7f23e42a9308e22e7438c3feb4f7a.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Макароны с сыром",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "http://nickvorobiov.com/images/post/kak-pohudet-nazhravshis-na-noch.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста с лососем",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "https://img02.rl0.ru/eda/-x900i/s2.eda.ru/StaticContent/Photos/120213175134/120213182757/p_O.jpg",
+        "supply": "second"
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Зама",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://media-cdn.tripadvisor.com/media/photo-s/0d/17/74/9a/zeama-chicken-soup.jpg",
+        "supply": "primary"
+
+    },
+    {
+        "name": "Мамалыга",
+        "type": "vegetarian",
+        "temperature": "medium",
+        "imgSrc": "https://www.ciaoitaliarussia.it/wp-content/uploads/2018/03/Polenta-mais.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Пельмени",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://kongres-magazine.eu/wp-content/uploads/2019/07/Pelmeni.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Ньоки",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://images.media-allrecipes.com/userphotos/560x315/1070416.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Рис",
+        "type": "vegetarian",
+        "temperature": "hot",
+        "imgSrc": "https://images.ctfassets.net/3s5io6mnxfqz/4w2HQFnzRAsjqgWjNtuy1v/41becac8b5d850dd15302b785119435f/AdobeStock_268001268.jpeg?w=800&fm=jpg&fl=progressive",
+        "supply": "second"
+    },
+    {
+        "name": "Плов",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20170418/b87bb973.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Сырники",
+        "type": "vegetarian",
+        "temperature": "medium",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20180223/b5793799.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста с тунцом",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "https://grandkulinar.ru/uploads/posts/2012-04/1335689192_spagetti-s-tuncom-i-sousom-marinara.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста Болоньезе",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://recipe-catalog.ru/wp-content/uploads/2018/01/spaghetti-bolognese.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста Карбонара",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://static.1000.menu/img/content/25198/pasta-karbonara_1517390804_9_max.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста с креветками",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "http://recepty-blud.com/wp-content/uploads/2012/03/spagetti-s-krevetkami-v-chesnohnom-souse.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с тунцом гриль",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "https://images.aif.ru/014/244/0a7d3829341cf93cbc8249a5ebab2a46.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с тунцом",
+        "type": "sea food",
+        "temperature": "cold",
+        "imgSrc": "https://img01.rl0.ru/eda/1200x-i/s2.eda.ru/StaticContent/Photos/161026181903/161104130633/p_O.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с морепродуктами",
+        "type": "sea food",
+        "temperature": "cold",
+        "imgSrc": "https://eda-land.ru/images/article/orig/2018/11/funchoza-s-moreproduktami-kalorijnost-i-sposoby-prigotovleniya-10.jpgg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат Цезарь",
+        "type": "meat",
+        "temperature": "medium",
+        "imgSrc": "http://receptastau.lt/wp-content/uploads/2015/01/Cezario-salotos-su-vi%C5%A1tiena-455x300.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат с крабовыми палочками",
+        "type": "sea food",
+        "temperature": "cold",
+        "imgSrc": "https://i.pinimg.com/474x/e5/f5/ba/e5f5bae518b1f000fe9178e9531d788c--salad-recipe.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат Оливье",
+        "type": "meat",
+        "temperature": "cold",
+        "imgSrc": "https://e2.edimdoma.ru/data/recipes/0008/8940/88940-ed4_wide.jpg?1482918981",
+        "supply": "second"
+    },
+    {
+        "name": "Винегрет",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "imgSrc": "http://chudo-povar.com/images/vinegret-klassicheskij.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат Мимоза",
+        "type": "meat",
+        "temperature": "cold",
+        "imgSrc": "http://shostkasyr.com/images/receipts/IMG_8091.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Салат греческий",
+        "type": "meat",
+        "temperature": "hot",
+        "imgSrc": "https://i.mycdn.me/image?id=878320882532&t=35&plc=WEB&tkn=*dZNAEZI-5rhqPlJf2QdsDstPBGA",
+        "supply": "second"
+    },
+    {
+        "name": "Блины",
+        "type": "vegetarian",
+        "temperature": "cold",
+        "imgSrc": "https://www.maggi.ru/data/images/recept/img640x500/recept_5749_s86c.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Блины с творогом",
+        "type": "vegetarian",
+        "temperature": "medium",
+        "imgSrc": "https://www.gastronom.ru/binfiles/images/20160222/bdf555bf.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Блины с курицей и грибами",
+        "type": "meat",
+        "temperature": "medium",
+        "imgSrc": "https://nakormi.com/wp-content/uploads/2018/02/bliny-s-kuricej-i-gribami-v-slivochnom-souse-600x400.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Блины с курицей",
+        "type": "meat",
+        "temperature": "medium",
+        "imgSrc": "https://www.divomix.com/uploads/1504441221.jpg",
+        "supply": "second"
+    },
+    {
+        "name": "Паста с лососем",
+        "type": "sea food",
+        "temperature": "hot",
+        "imgSrc": "https://img02.rl0.ru/eda/-x900i/s2.eda.ru/StaticContent/Photos/120213175134/120213182757/p_O.jpg",
+        "supply": "second"
+    }
+]

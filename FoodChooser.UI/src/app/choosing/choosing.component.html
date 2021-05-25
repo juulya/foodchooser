@@ -1,0 +1,43 @@
+<img class="header-background" src="/assets/1959517.png">
+<section class="jumbotron text-center">
+    
+    <div class="container">
+        <h1 class="jumbotron-heading">Choose your food</h1>
+        <p class="lead">
+            <i class="far fa-apple-alt"></i>
+            Please select the options that most suit you
+        </p>
+        <!-- <p>
+            <a href="#" class="btn btn-primary my-2">Launch choosing wizard</a>
+            <button href="#" class="btn btn-secondary my-2" (click)="browse()">Browse food catalogue</button>
+        </p> -->
+    </div>
+</section>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Do you want a hot served dish or cold?</h4>
+                <div class="button-group" style="display: inline">
+                    <button type="button" (click)="assignTemperature('hot')" class="btn" [ngClass]="{'btn-default': temperature == undefined || temperature !== 'hot', 'btn-warning': temperature === 'hot'}">Hot</button>
+                    <button type="button" (click)="assignTemperature('medium')" class="btn" [ngClass]="{'btn-default': temperature == undefined || temperature !== 'medium', 'btn-success': temperature === 'medium'}">Medium</button>
+                    <button type="button" (click)="assignTemperature('cold')" class="btn" [ngClass]="{'btn-default': temperature == undefined || temperature !== 'cold', 'btn-info': temperature === 'cold'}">Cold</button>
+                </div>
+                <div class="button-group" *ngIf="temperature === 'hot'" style="display: inline; margin-left: 15px">
+                    <button type="button" (click)="assignSupply('primary')" class="btn" [ngClass]="{'btn-default': supply == undefined || supply !== 'primary', 'btn-primary': supply === 'primary'}">Primary</button>
+                    <button type="button" (click)="assignSupply('second')" class="btn" [ngClass]="{'btn-default': supply == undefined || supply !== 'second', 'btn-primary': supply === 'second'}">Secondary</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>What type of food do you want?</h4>
+                <div class="button-group">
+                    <button type="button" (click)="assignType('meat')" class="btn" [ngClass]="{'btn-default': type == undefined || type !== 'meat', 'btn-danger': type === 'meat'}">Meat</button>
+                    <button type="button" (click)="assignType('vegetarian')" class="btn" [ngClass]="{'btn-default': type == undefined || type !== 'vegetarian', 'btn-success': type === 'vegetarian'}">Vegetarian</button>
+                    <button type="button" (click)="assignType('sea food')" class="btn" [ngClass]="{'btn-default': type == undefined || type !== 'sea food', 'btn-info': type === 'sea food'}">Sea Food</button>
+                </div>
+            </div>
+        </div>       
+    </div>
+</div>
+
+<app-food-list [filter]="foodFilter"></app-food-list>
